@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/out/artifacts/untitled_war_exploded/folder/ROOT/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/out/artifacts/untitled_war_exploded/folder/ROOT" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/out/artifacts/untitled_war_exploded/folder/manager/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/out/artifacts/untitled_war_exploded/folder/manager" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/out/artifacts/untitled_war_exploded/folder/host-manager/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/out/artifacts/untitled_war_exploded/folder/host-manager" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web4">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/out/artifacts/untitled_war_exploded/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/out/artifacts/untitled_war_exploded" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web5">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-tx-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aop-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jcl-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jms-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-orm-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-oxm-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-web-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-core-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jdbc-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-test-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-beans-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webmvc-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aspects-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webflux-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-messaging-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-websocket-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-expression-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-instrument-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-tx-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-tx-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aop-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aop-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jcl-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jcl-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jms-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jms-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-orm-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-orm-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-oxm-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-oxm-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-web-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-web-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-core-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-core-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jdbc-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jdbc-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-test-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-test-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-beans-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-beans-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webmvc-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webmvc-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aspects-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aspects-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-indexer-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-support-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webflux-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webflux-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-messaging-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-messaging-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-websocket-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-websocket-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-expression-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-expression-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-instrument-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-instrument-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-indexer-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-indexer-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-support-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-support-5.0.2.RELEASE-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-tx-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aop-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jcl-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jms-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-orm-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-oxm-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-web-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-core-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jdbc-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-test-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-beans-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webmvc-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aspects-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webflux-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-messaging-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-websocket-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-expression-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-instrument-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-tx-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-tx-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aop-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aop-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jcl-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jcl-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jms-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jms-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-orm-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-orm-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-oxm-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-oxm-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-web-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-web-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-core-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-core-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jdbc-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-jdbc-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-test-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-test-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-beans-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-beans-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webmvc-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webmvc-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aspects-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-aspects-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-indexer-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-support-5.0.2.RELEASE.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webflux-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-webflux-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-messaging-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-messaging-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-websocket-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-websocket-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-expression-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-expression-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-instrument-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-instrument-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-indexer-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-indexer-5.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-support-5.0.2.RELEASE-javadoc.jar!/" />
+          <root url="jar://D:/Spring框架jar包/spring-framework-5.0.2.RELEASE/libs/spring-context-support-5.0.2.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
