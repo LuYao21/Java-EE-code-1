@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--目标对象-->
+    <bean id="testDao" class="dynamic.jdk.TestDaoImpl" />
+    <!--定义切面-->
+    <bean id="MyAspect" class="aspect.xml.MyAspect" />
+    <!--AOP配置-->
+    <aop:config >
+        <aop:aspect ref="MyAspect">
+            <!--匹配dynamic.jkd中的任意类的任意方法的执行-->
+            <!--*代表任意，第一个*一般填写表示返回类型；第二个*代表匹配保重的所有类名；第三个*表示方法的所有参数；（）中一般填写参数，（..）表示任意参数-->
+            <aop:pointcut id="myPointCut" expression="execution(* dynamic.jdk.*.*(..))" />
+            <aop:before method="before" pointcut-ref="myPointCut"/>
+            <aop:after-returning method="afterReturning" pointcut-ref="myPointCut" />
+            <aop:around method="around" pointcut-ref="myPointCut"/>
+            <aop:after-throwing method="except" pointcut-ref="myPointCut" throwing="e" />
+            <aop:after method="after" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
