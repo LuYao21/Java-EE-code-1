@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="com.statement"/>
+    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/db_manage?characterEncoding=utf8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456abc"/>
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="datasource"/>
+    </bean>
+
+    <!--为数据源添加事务管理器-->
+    <bean id="txmanager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="datasource"/>
+    </bean>
+
+    <!--编写通知声明事务-->
+    <tx:advice id="myAdvice" transaction-manager="txmanager">
+        <tx:attributes>
+            <tx:method name="x"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--编写AOP，让Spring自动对目标对象生成代理，需要使用Aspecet的表达式-->
+    <aop:config>
+        <aop:pointcut id="txPointCut" expression="execution(* com.statement.service.*.*())"/>
+        <aop:advisor advice-ref="myAdvice" pointcut-ref="txPointCut"/>
+    </aop:config>
+</beans>
