@@ -9,16 +9,16 @@
 		select * from user where id = #{id}
 	</select>
     <!-- 查询所有用户信息 -->
-    <select id="selectAllUser"  resultType="om.mybatis.po.myUser">
+    <select id="selectAllUser"  resultType="com.mybatis.po.myUser">
 		select * from user
 	</select>
     <!-- 添加一个用户 ，#{username}为com.po.MyUser的属性值-->
     <insert id="addUser" parameterType="com.mybatis.po.myUser">
-		insert into user (username,password,email,sex) values(#{username},#{psaaword},#{email},#{sex},)
+		insert into user (username,password,email,sex) values(#{username},#{password},#{email},#{sex})
 	</insert>
     <!-- 修改一个用户 -->
     <update id="updateUser" parameterType="com.mybatis.po.myUser">
-		update user set username = #{username},usex = #{sex} where id = #{id}
+		update user set username = #{username},sex = #{sex} where id = #{id}
 	</update>
     <!-- 删除一个用户 -->
     <delete id="deleteUser" parameterType="Integer">
