@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><!--必须在第一行顶格-->
+<!DOCTYPE mapper PUBLIC "-//mybayis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace通常设置为“包名+SQL映射文件名”，指定了唯一的命名空间-->
+<mapper namespace="com.mybatis.mapper.UserMapper">
+    <select id="selectUserById" parameterType="Integer" resultType="com.mybatis.po.myUser">
+        select *from user where id = #{id}
+    </select>
+
+    <select id="selectAllUser" resultType="com.mybatis.po.myUser">
+        select * from user
+    </select>
+
+    <insert id="addUser" parameterType="com.mybatis.po.myUser">
+        insert into user (username,password,email,sex) values(#{username},#{password},#{email},#{sex})
+    </insert>
+
+    <update id="updateUser" parameterType="com.mybatis.po.myUser">
+        update user set username = #{username},password = #{password},email = #{email} where id = #{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="Integer">
+        delete from user where id = #{id}
+    </delete>
+</mapper>
