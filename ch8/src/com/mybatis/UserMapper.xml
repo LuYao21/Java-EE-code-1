@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UserDao">
+    <!-- 根据uid查询一个用户信息 -->
+    <select id="selectUserById" parameterType="Integer"
+            resultType="com.po.MyUser">
+		select * from user where id = #{id}
+	</select>
+    <!-- 查询所有用户信息 -->
+    <select id="selectAllUser"  resultType="com.po.MyUser">
+        select * from user where 1=1
+        <if test="username !=null and username=''">
+            and uname like concat('%',#{username},'%')
+        </if>
+    </select>
+    <!-- 添加一个用户 ，#{uname}为com.po.MyUser的属性值-->
+    <insert id="addUser" parameterType="com.po.MyUser">
+		insert into user (username,sex) values(#{username},#{sex})
+	</insert>
+    <!-- 修改一个用户 -->
+    <update id="updateUser" parameterType="com.po.MyUser">
+		update user set username = #{username},sex = #{sex} where id = #{id}
+	</update>
+    <!-- 删除一个用户 -->
+    <delete id="deleteUser" parameterType="Integer">
+		delete from user where id = #{id}
+	</delete>
+    <!-- 使用if元素，根据条件动态查询用户信息 -->
+    <select id="selectUserByIf"  resultType="com.po.MyUser" parameterType="com.po.MyUser">
+        select * from user where 1=1
+        <if test="username !=null and username!=''">
+            and username like concat('%',#{username},'%')
+        </if>
+        <if test="sex !=null and sex!=''">
+            and sex = #{sex}
+        </if>
+    </select>
+
+
+</mapper>
